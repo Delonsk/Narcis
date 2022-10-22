@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+Route::get('/message', function (Request $request) {
+    $request->validate([
+        'email'                 => ['required', 'string'],
+        'subject'               => ['required', 'string'],
+        'message'               => ['required', 'string'],
+        'g-recaptcha-response'  => 'required|captcha'
+    ]);
+    mail(env("EMAIL"), "Správa zo stránky Narcis",
+        "Od: ". $request->email ."\n"."Predmet: ".$request->subject."\n"."Správa: ". $request->message );
+});
+
