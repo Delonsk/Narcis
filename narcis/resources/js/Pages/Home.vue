@@ -1,7 +1,7 @@
 <template class="">
     <div class="w-full overflow-y-hidden">
         <nav class="w-full min-h-[155px] pt-[10px] items-center shadow-[0px_20px_50px_#0000004D] relative">
-            <div class="w-full flex justify-between items-center  min-h-[155px] relative">
+            <div class="w-full flex justify-between items-center  min-h-[155px] relative z">
                 <div class="pl-[20px] sm:pl-[60px] ">
                     <div class="w-[259px]">
                         <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
@@ -40,38 +40,41 @@
                                 </g>
                             </g>
                         </svg>
-
-
                     </div>
                 </div>
                 <div class="lg:flex hidden font-['grafolita-script'] pr-[40px] items-center ">
-                    <h5 class="text-[#343434] pr-[30px] text-[40px]">Domov</h5>
-                    <h5 class="text-[#343434] px-[30px] text-[40px]">Ponuka</h5>
-                    <h5 class="text-[#343434] px-[30px] text-[40px]">O Nás</h5>
-                    <h5 class="text-[#343434] pl-[30px] text-[40px]">Kontakt</h5>
+                    <a href="#domov"><h5 class="text-[#343434] pr-[30px] text-[40px]">Domov</h5></a>
+                    <a href="#ponuka"><h5 class="text-[#343434] px-[30px] text-[40px]">Ponuka</h5></a>
+                    <a href="#onas"><h5 class="text-[#343434] px-[30px] text-[40px]">O Nás</h5></a>
+                    <a href="#kontakt"><h5 class="text-[#343434] pl-[30px] text-[40px]">Kontakt</h5></a>
                 </div>
                 <div class="pr-[50px] hidden xl:flex">
                     <img alt="icons" class="w-[40px] mx-[25px]" src="img/phone_icon.svg">
                     <img alt="icons" class="w-[40px] mx-[25px]" src="img/facebook_icon.svg">
                 </div>
                 <div class="pr-[20px] sm:pr-[50px]  lg:hidden ">
-                    <div class="space-y-2 hamburger">
+                    <div class="space-y-2 hamburger " @click="toggleMenu">
                         <div class="w-8 h-0.5 bg-gray-600"></div>
                         <div class="w-8 h-0.5 bg-gray-600"></div>
                         <div class="w-8 h-0.5 bg-gray-600"></div>
                     </div>
                 </div>
             </div>
-            <div
-                class="hidden toggle-nav-content  font-['grafolita-script'] text-center pt-[40px] pr-[40px] items-center ">
-                <h5 class="text-[#343434] px-[30px] text-[40px]">Domov</h5>
-                <h5 class="text-[#343434] px-[30px] text-[40px]">Ponuka</h5>
-                <h5 class="text-[#343434] px-[30px] text-[40px]">O Nás</h5>
-                <h5 class="text-[#343434] px-[30px] text-[40px]">Kontakt</h5>
-            </div>
         </nav>
+        <div class="w-full relative">
+        <Transition name="slide-fade">
+            <div
+                class="absolute bottom-[-240px] bg-white w-full toggle-nav-content transition-mobile-menu font-['grafolita-script'] text-center pt-[10px]  items-center "
+                v-show="isMenuOpen">
+                <a href="#domov"><h5 class="text-[#343434] px-[30px] text-[40px]">Domov</h5></a>
+                <a href="#ponuka"><h5 class="text-[#343434] px-[30px] text-[40px]">Ponuka</h5></a>
+                <a href="#onas"><h5 class="text-[#343434] px-[30px] text-[40px]">O Nás</h5></a>
+                <a href="#kontakt"><h5 class="text-[#343434] px-[30px] text-[40px]">Kontakt</h5></a>
+            </div>
+        </Transition>
+        </div>
 
-        <main class="bg-[#F8F8F8] flex items-center flex-col">
+        <main class="bg-[#F8F8F8] flex items-center flex-col" id="domov">
 
             <section
                 class="w-full min-h-[640px] flex items-center bg-[url('http://kvetinarstvo-narcis.sk/img/background_narcis.jpg')] text-white bg-cover bg-center">
@@ -85,7 +88,7 @@
                 </div>
             </section>
             <div class="max-w-[1380px] w-full">
-                <section class="pt-[55px] font-['grafolita-script'] w-full">
+                <section class="pt-[55px] font-['grafolita-script'] w-full" id="ponuka">
                     <div class="flex justify-center w-full">
                         <div class=" relative">
                             <h1 class="text-[75px] text-center px-[37px]"><span class="text-[#F0C419]">Čo</span>
@@ -136,7 +139,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="pt-[270px] pb-[410px] relative">
+                <section class="pt-[270px] pb-[410px] relative" id="onas">
                     <img alt="1. včela"
                          class="absolute w-[165px] md:top-[285px] top-[250px] md:left-[115px] sm:left-[60px] left-[20px] rotate-[3.5deg]"
                          src="img/Bee3.svg">
@@ -178,11 +181,11 @@
                     </div>
 
                 </section>
-                <section class="">
+                <section class="" id="kontakt">
                     <div class=" flex justify-center">
                         <div class="relative">
-                            <h1 class="text-[75px] font-['grafolita-script'] px-[35px]">
-                                <span class="text-[#F0C419] text-center lg:text-left">Kontaktujte</span> Nás
+                            <h1 class="text-[75px] font-['grafolita-script'] px-[35px] text-center lg:text-left">
+                                <span class="text-[#F0C419]">Kontaktujte</span> Nás
                             </h1>
                             <div class="w-full h-[3px] bg-[#F0C419] absolute bottom-[14px]"></div>
                         </div>
@@ -379,7 +382,8 @@ export default {
     },
     data() {
         return {
-            recaptchaValidationError: false
+            recaptchaValidationError: false,
+            isMenuOpen: false
         }
     },
     setup() {
@@ -406,6 +410,9 @@ export default {
         onCaptchaExpired: function () {
             this.$refs.recaptcha.reset();
         },
+        toggleMenu: function () {
+            this.isMenuOpen = !this.isMenuOpen
+        }
 
     },
 };
@@ -413,6 +420,21 @@ export default {
 
 
 <style scoped>
+
+.transition-mobile-menu {
+    transition: all 1s ease;
+}
+.slide-fade-answer {
+    transition: all 1s ease;
+}
+
+.slide-fade-enter-from, .slide-fade-leave-to{
+    /*opacity: 0;*/
+    transform: translateX(800px);
+}
+
+
+
 .mapouter {
     position: relative;
     text-align: right;
