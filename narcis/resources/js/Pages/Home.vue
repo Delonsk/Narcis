@@ -49,8 +49,8 @@
                     <a href="#kontakt"><h5 class="text-[#343434] pl-[30px] text-[40px]">Kontakt</h5></a>
                 </div>
                 <div class="pr-[50px] hidden xl:flex">
-                    <img alt="icons" class="w-[40px] mx-[25px]" src="img/phone_icon.svg">
-                    <img alt="icons" class="w-[40px] mx-[25px]" src="img/facebook_icon.svg">
+                    <a href="#kontakt"><img alt="icons" class="w-[40px] mx-[25px]" src="img/phone_icon.svg"></a>
+                    <a target="_blanka" href="https://m.facebook.com/profile.php?id=100044487858230"><img alt="icons" class="w-[40px] mx-[25px]" src="img/facebook_icon.svg"></a>
                 </div>
                 <div class="pr-[20px] sm:pr-[50px]  lg:hidden ">
                     <div class="space-y-2 hamburger " @click="toggleMenu">
@@ -62,22 +62,22 @@
             </div>
         </nav>
         <div class="w-full relative">
-        <Transition name="slide-fade">
-            <div
-                class="absolute bottom-[-240px] bg-white w-full toggle-nav-content transition-mobile-menu font-['grafolita-script'] text-center pt-[10px]  items-center "
-                v-show="isMenuOpen">
-                <a href="#domov"><h5 class="text-[#343434] px-[30px] text-[40px]">Domov</h5></a>
-                <a href="#ponuka"><h5 class="text-[#343434] px-[30px] text-[40px]">Ponuka</h5></a>
-                <a href="#onas"><h5 class="text-[#343434] px-[30px] text-[40px]">O Nás</h5></a>
-                <a href="#kontakt"><h5 class="text-[#343434] px-[30px] text-[40px]">Kontakt</h5></a>
-            </div>
-        </Transition>
+            <Transition name="slide-fade">
+                <div
+                    class="absolute bottom-[-240px] bg-white w-full toggle-nav-content transition-mobile-menu font-['grafolita-script'] text-center pt-[10px]  items-center "
+                    v-show="isMenuOpen">
+                    <a href="#domov"><h5 class="text-[#343434] px-[30px] text-[40px]">Domov</h5></a>
+                    <a href="#ponuka"><h5 class="text-[#343434] px-[30px] text-[40px]">Ponuka</h5></a>
+                    <a href="#onas"><h5 class="text-[#343434] px-[30px] text-[40px]">O Nás</h5></a>
+                    <a href="#kontakt"><h5 class="text-[#343434] px-[30px] text-[40px]">Kontakt</h5></a>
+                </div>
+            </Transition>
         </div>
 
         <main class="bg-[#F8F8F8] flex items-center flex-col" id="domov">
 
             <section
-                class="w-full min-h-[640px] flex items-center bg-[url('http://kvetinarstvo-narcis.sk/img/background_narcis.jpg')] text-white bg-cover bg-center">
+                class="w-full min-h-[640px] flex items-center bg-[url('https://kvetinarstvo-narcis.sk/img/background_narcis.jpg')] text-white bg-cover bg-center">
                 <div class="px-[25px] md:px-[50px] xl:px-[135px]  font-['grafolita-script']">
                     <h1 class="text-[70px] drop-shadow-[0px_3px_6px_#00000029 max-w-[400px] sm:max-w-full">
                         Kvetinárstvo Narcis
@@ -106,7 +106,7 @@
                                           :itemsToShow="1">
                                     <slide class="h-full" v-for="slide in 2" :key="slide">
                                         <img :alt="slide+'. obrázok v 1. galérii'" class="aspect-[3/3.8] object-cover"
-                                             src="http://kvetinarstvo-narcis.sk/img/background_narcis.jpg">
+                                             src="https://kvetinarstvo-narcis.sk/img/background_narcis.jpg">
                                     </slide>
 
                                     <template #addons>
@@ -123,7 +123,7 @@
                                           :itemsToShow="1">
                                     <slide class="h-full" v-for="slide in 2" :key="slide">
                                         <img :alt="slide+'. obrázok v 1. galérii'" class="aspect-[3/3.8] object-cover"
-                                             src="http://kvetinarstvo-narcis.sk/img/background_narcis.jpg">
+                                             src="https://kvetinarstvo-narcis.sk/img/background_narcis.jpg">
                                     </slide>
 
                                     <template #addons>
@@ -165,9 +165,9 @@
                             <span class="text-[#F0C419]">zdarma</span>. V ponuke máme aj kvalitné interiérové a
                             exteriérové
                             doplnky dovážané z Holandska. Objednávky prijímame aj
-                            <a class="text-[#F0C419]" href="">telefonicky</a>,
-                            prostredníctvom <a class="text-[#F0C419]" href="">facebooku</a> alebo
-                            <a class="text-[#F0C419]" href="">mailom</a>. Tešíme sa na vašu návštevu, určite si
+                            <a class="text-[#F0C419]" href="#kontakt">telefonicky</a>,
+                            prostredníctvom <a class="text-[#F0C419]" target="_blank" href="https://m.facebook.com/profile.php?id=100044487858230">facebooku</a> alebo
+                            <a class="text-[#F0C419]" href="#kontakt">mailom</a>. Tešíme sa na vašu návštevu, určite si
                             vyberiete z
                             našej bohatej ponuky.
                         </p>
@@ -209,7 +209,7 @@
                                 <div class="">
                                     <div class="flex justify-center lg:justify-start">
                                         <div class="w-[61px] pb-[10px] flex items-center">
-                                            <img alt="icon" class="h-[36px] scale-x-[-1]" src="img/phone_icon.svg">
+                                            <img alt="icon" class="h-[36px] scale-x-[-1]" src="img/phone.svg">
                                         </div>
                                         <div>
                                             <p class="">0915 918 450</p>
@@ -226,8 +226,8 @@
                                     </div>
                                     <div class="flex justify-center lg:justify-start  pt-[18px]">
                                         <div class="w-[61px] pb-[10px]  flex items-center">
-                                            <img alt="icon" class="h-[36px]  scale-x-[-1]"
-                                                 src="img/phone_icon.svg">
+                                            <img alt="icon" class="h-[36px] pl-4 scale-x-[-1]"
+                                                 src="img/email.svg">
                                         </div>
                                         <div>
                                             <p class="">narcisbj@gmail.com</p>
@@ -235,10 +235,14 @@
                                     </div>
                                     <div class="flex justify-center  pt-[12px]">
                                         <div class="w-[61px] pb-[10px]  flex items-center">
-                                            <img alt="icon" class="h-[36px]  " src="img/facebook_icon.svg">
+                                            <a target="_blank" href="https://m.facebook.com/profile.php?id=100044487858230">
+                                            <img alt="icon" class="h-[36px] pointer-events-auto " src="img/facebook_icon.svg">
+                                            </a>
                                         </div>
                                         <div>
-                                            <p class="">Kvetinárstvo Narcis Bardejov</p>
+                                            <a href="https://m.facebook.com/profile.php?id=100044487858230">
+                                                <p class="underline cursor-pointer">Kvetinárstvo Narcis Bardejov</p>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -313,27 +317,26 @@
                             </div>
                             <form
                                 class="text-[33px] px-[3px] font-['grafolita-script']  pt-[6px] flex  justify-center lg:justify-start lg:pr-[30px] lg:w-full"
-                                method="post" action="/message" @submit.prevent="submit">
+                                @submit.prevent="submit">
                                 <div class="md:w-10/12 lg:w-full">
-                                    <!--                                {{ csrf_field() }}-->
                                     <input type="hidden" name="_token" :value='csrf_token'>
                                     <div class="pt-[15px]">
                                         <p class="px-[2px]">Váš e-mail</p>
                                         <input type="email" name="email" v-model="form.email"
-                                               class="w-full h-[48px] mt-[10px] rounded-[10px] border-[2px] border-[#F0C419] ">
+                                               class="w-full font-['ff-scala-sans-pro'] h-[48px] mt-[10px] rounded-[10px] border-[2px] border-[#F0C419] ">
                                     </div>
                                     <div class="pt-[15px]">
                                         <p class="px-[2px]">Predmet správy</p>
                                         <input type="text" name="subject" v-model="form.subject"
-                                               class="w-full h-[48px] mt-[10px] rounded-[10px] border-[2px] border-[#F0C419] ">
+                                               class="w-full font-['ff-scala-sans-pro'] h-[48px] mt-[10px] rounded-[10px] border-[2px] border-[#F0C419] ">
                                     </div>
                                     <div class="pt-[15px]">
                                         <p class="px-[2px]">Správy</p>
                                         <textarea name="message" v-model="form.message"
-                                                  class="w-full h-[244px] mt-[8px] rounded-[10px] border-[2px] border-[#F0C419]"></textarea>
+                                                  class="w-full font-['ff-scala-sans-pro'] h-[244px] mt-[8px] rounded-[10px] border-[2px] border-[#F0C419]"></textarea>
                                     </div>
-                                    <div class="w-full flex">
-                                        <vue-recaptcha sitekey="6LerP6EiAAAAALBlb8JGIXepgY6ZhHY44UFPd6oZ"
+                                    <div class="w-full flex justify-center lg:justify-start">
+                                        <vue-recaptcha :sitekey="recaptcha_site_key"
                                                        :class="{ 'border-2 border-rose-500':recaptchaValidationError }"
                                                        class="w-[306px] h-[80px] rounded-[3px]"
                                                        :loadRecaptchaScript="true"
@@ -345,9 +348,17 @@
                                     </div>
                                     <div class="pt-[25px] flex justify-center items-center lg:justify-start">
                                         <input type="submit" placeholder="Odoslať"
-                                               class=" bg-[#F0C419] px-[30px] py-[0px]  rounded-[10px] text-white ">
-
+                                               class=" bg-[#F0C419] px-[30px] py-[0px] cursor-pointer rounded-[10px] text-white ">
+                                        <div class="hidden sm:flex pl-3 pb-3 font-['ff-scala-sans-pro'] text-[18px] pt-4 " v-show="showFormMessage">
+                                            <p class="text-green-500" v-show="validForm">Mail bol úspěne odoslaný</p>
+                                            <p class="text-red-600" v-show="!validForm">Mail nebol úspešne odoslaný</p>
+                                        </div>
                                     </div>
+                                    <div class="sm:hidden pl-3 pb-3 font-['ff-scala-sans-pro'] text-[18px] pt-4 " v-show="showFormMessage">
+                                        <p class="text-green-500" v-show="validForm">Mail bol úspěne odoslaný</p>
+                                        <p class="text-red-600" v-show="!validForm">Mail nebol úspešne odoslaný</p>
+                                    </div>
+
                                 </div>
 
 
@@ -368,6 +379,7 @@ import {VueRecaptcha} from 'vue-recaptcha';
 import {useForm} from "@inertiajs/inertia-vue3";
 import 'vue3-carousel/dist/carousel.css'
 import {Carousel, Slide, Pagination, Navigation} from 'vue3-carousel'
+import axios from "axios";
 
 export default {
     components: {
@@ -379,11 +391,14 @@ export default {
     },
     props: {
         csrf_token: String,
+        recaptcha_site_key: String,
     },
     data() {
         return {
             recaptchaValidationError: false,
-            isMenuOpen: false
+            isMenuOpen: false,
+            validForm: true,
+            showFormMessage: false,
         }
     },
     setup() {
@@ -397,9 +412,21 @@ export default {
     },
     methods: {
         submit: function () {
-            if (this.form['g-recaptcha-response'] !== '')
-                this.form.post('/message')
-            else
+            if (this.form['g-recaptcha-response'] !== '') {
+                // this.form.post('/message')
+                axios
+                    .post("/message", {
+                        email: this.form.email,
+                        subject: this.form.subject,
+                        message: this.form.message,
+                        'g-recaptcha-response': this.form['g-recaptcha-response'],
+                    })
+                    .then((response) => {
+                        const data = response.data;
+                        this.showFormMessage = true
+                        this.validForm = data === 'Email bol uspešne odoslaný';
+                    });
+            } else
                 this.recaptchaValidationError = true
 
         },
@@ -424,15 +451,15 @@ export default {
 .transition-mobile-menu {
     transition: all 1s ease;
 }
+
 .slide-fade-answer {
     transition: all 1s ease;
 }
 
-.slide-fade-enter-from, .slide-fade-leave-to{
+.slide-fade-enter-from, .slide-fade-leave-to {
     /*opacity: 0;*/
     transform: translateX(800px);
 }
-
 
 
 .mapouter {
