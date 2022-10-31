@@ -1,4 +1,8 @@
 <template class="">
+    <Head>
+        <title>Narcis</title>
+        <meta name="description" content="Ricardo je nadherny xdd">
+    </Head>
     <div class="w-full overflow-y-hidden">
         <nav class="w-full min-h-[155px] pt-[10px] items-center shadow-[0px_20px_50px_#0000004D] relative">
             <div class="w-full flex justify-between items-center  min-h-[155px] relative z">
@@ -376,7 +380,7 @@
 </template>
 <script>
 import {VueRecaptcha} from 'vue-recaptcha';
-import {useForm} from "@inertiajs/inertia-vue3";
+import {useForm, Head} from "@inertiajs/inertia-vue3";
 import 'vue3-carousel/dist/carousel.css'
 import {Carousel, Slide, Pagination, Navigation} from 'vue3-carousel'
 import axios from "axios";
@@ -388,6 +392,7 @@ export default {
         Slide,
         Pagination,
         Navigation,
+        Head
     },
     props: {
         csrf_token: String,
