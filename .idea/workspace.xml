@@ -2,7 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d447e2d-8461-4a0c-a250-ec7aa9b409c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel1/kytica1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel1/kytica2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel1/kytica3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel1/kytica4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel1/kytica5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel2/svadobnaKytica1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel2/svadobnaKytica2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel2/svadobnaKytica3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel2/svadobnaKytica4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel2/svadobnaKytica5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel3/smutocneKytice1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel3/smutocneKytice2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel3/smutocneKytice3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel3/smutocneKytice4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel3/smutocneKytice5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel4/vyzdobaKostolov1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel4/vyzdobaKostolov2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel4/vyzdobaKostolov3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel4/vyzdobaKostolov4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/carousel4/vyzdobaKostolov5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narcis/public/img/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/HandleInertiaRequests.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/HandleInertiaRequests.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/Recaptcha.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/Recaptcha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/TrustHosts.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/ValidateSignature.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/narcis/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/captcha.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/captcha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/sanctum.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/sanctum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/img/Bee1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/img/Bee1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/img/Bee2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/img/Bee2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/img/Bee3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/img/Bee3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/img/email.svg" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/img/email.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/img/facebook_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/img/facebook_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/img/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/img/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/img/phone_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/img/phone_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/resources/js/Pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/resources/js/Pages/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/narcis/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/narcis/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +267,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kuzmi\PhpstormProjects\Narcis\narcis\public\img" />
+      <recent name="C:\Users\kuzmi\PhpstormProjects\Narcis\narcis\public" />
+      <recent name="C:\Users\kuzmi\PhpstormProjects\Narcis\narcis\public\img\carousel2" />
+      <recent name="C:\Users\kuzmi\PhpstormProjects\Narcis\narcis\public\img\carousel3" />
+      <recent name="C:\Users\kuzmi\PhpstormProjects\Narcis\narcis\public\img\carousel4" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="web.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/narcis/routes/web.php">
       <method v="2" />

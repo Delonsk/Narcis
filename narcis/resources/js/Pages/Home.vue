@@ -1,7 +1,9 @@
 <template class="">
     <Head>
-        <title>Narcis</title>
-        <meta name="description" content="Ricardo je nadherny xdd">
+        <title>Kvetinárstvo Narcis</title>
+        <meta name="description" content="Kvetinárstvo Narcis sa nachádza na Radničnom Námestí v Bardejove a ponúka veľký výber krásnych a čerstvých kvetov, takisto ako
+        viazanie kytíc, výrobu vencov či iných dekoračných predmetov.">
+        <link rel="icon" type="image/x-icon" href="img/favicon.svg">
     </Head>
     <div class="w-full overflow-y-hidden">
         <nav class="w-full min-h-[155px] pt-[10px] items-center shadow-[0px_20px_50px_#0000004D] relative">
@@ -104,13 +106,28 @@
                     <div class="w-full flex justify-center pt-[90px]">
                         <div class="w-3/4 grid sm:grid-cols-2 xl:gap-x-[140px] xl:gap-y-[130px] md:gap-x-[70px] md:gap-y-[65px]
                 sm:gap-x-[50px] sm:gap-y-[50px] gap-x-[25px] gap-y-[25px]">
-                            <div
-                                class="bg-white aspect-[3/3.8] rounded-[30px] overflow-hidden shadow-[0px_1px_5px_#00000029]">
+                            <div class="bg-white aspect-[3/3.8] rounded-[30px] overflow-hidden shadow-[0px_1px_5px_#00000029]">
                                 <carousel class="h-full relative " :items-to-show="1.5" :wrapAround=true
                                           :itemsToShow="1">
-                                    <slide class="h-full" v-for="slide in 2" :key="slide">
+                                    <slide class="h-full" :key="slide">
                                         <img :alt="slide+'. obrázok v 1. galérii'" class="aspect-[3/3.8] object-cover"
-                                             src="https://kvetinarstvo-narcis.sk/img/background_narcis.jpg">
+                                             src="img/carousel1/kytica1.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 1. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel1/kytica2.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 1. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel1/kytica3.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 1. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel1/kytica4.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 1. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel1/kytica5.jpg">
                                     </slide>
 
                                     <template #addons>
@@ -121,13 +138,28 @@
                                     </template>
                                 </carousel>
                             </div>
-                            <div
-                                class="bg-white aspect-[3/3.8] rounded-[30px] overflow-hidden shadow-[0px_1px_5px_#00000029]">
+                            <div class="bg-white aspect-[3/3.8] rounded-[30px] overflow-hidden shadow-[0px_1px_5px_#00000029]">
                                 <carousel class="h-full relative " :items-to-show="1.5" :wrapAround=true
                                           :itemsToShow="1">
-                                    <slide class="h-full" v-for="slide in 2" :key="slide">
-                                        <img :alt="slide+'. obrázok v 1. galérii'" class="aspect-[3/3.8] object-cover"
-                                             src="https://kvetinarstvo-narcis.sk/img/background_narcis.jpg">
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 2. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel2/svadobnaKytica1.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 2. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel2/svadobnaKytica2.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 2. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel2/svadobnaKytica3.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 2. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel2/svadobnaKytica4.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 2. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel2/svadobnaKytica5.jpg">
                                     </slide>
 
                                     <template #addons>
@@ -138,8 +170,70 @@
                                     </template>
                                 </carousel>
                             </div>
-                            <div class="bg-white aspect-[3/3.8] rounded-[30px] shadow-[0px_1px_5px_#00000029]"></div>
-                            <div class="bg-white aspect-[3/3.8] rounded-[30px] shadow-[0px_1px_5px_#00000029]"></div>
+                            <div class="bg-white aspect-[3/3.8] rounded-[30px] overflow-hidden shadow-[0px_1px_5px_#00000029]">
+                                <carousel class="h-full relative " :items-to-show="1.5" :wrapAround=true
+                                          :itemsToShow="1">
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 3. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel3/smutocneKytice1.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 3. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel3/smutocneKytice2.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 3. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel3/smutocneKytice3.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 3. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel3/smutocneKytice4.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 3. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel3/smutocneKytice5.jpg">
+                                    </slide>
+
+                                    <template #addons>
+                                        <navigation/>
+                                        <div class="absolute w-full bottom-[10px] flex justify-center">
+                                            <pagination/>
+                                        </div>
+                                    </template>
+                                </carousel>
+                            </div>
+                            <div class="bg-white aspect-[3/3.8] rounded-[30px] overflow-hidden shadow-[0px_1px_5px_#00000029]">
+                                <carousel class="h-full relative " :items-to-show="1.5" :wrapAround=true
+                                          :itemsToShow="1">
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 4. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel4/vyzdobaKostolov1.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 4. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel4/vyzdobaKostolov2.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 4. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel4/vyzdobaKostolov3.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 4. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel4/vyzdobaKostolov4.jpg">
+                                    </slide>
+                                    <slide class="h-full" :key="slide">
+                                        <img :alt="slide+'. obrázok v 4. galérii'" class="aspect-[3/3.8] object-cover"
+                                             src="img/carousel4/vyzdobaKostolov5.jpg">
+                                    </slide>
+
+                                    <template #addons>
+                                        <navigation/>
+                                        <div class="absolute w-full bottom-[10px] flex justify-center">
+                                            <pagination/>
+                                        </div>
+                                    </template>
+                                </carousel>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -244,7 +338,7 @@
                                             </a>
                                         </div>
                                         <div>
-                                            <a href="https://m.facebook.com/profile.php?id=100044487858230">
+                                            <a href="https://m.facebook.com/profile.php?id=100044487858230" target="_blank">
                                                 <p class="underline cursor-pointer">Kvetinárstvo Narcis Bardejov</p>
                                             </a>
                                         </div>
